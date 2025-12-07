@@ -101,23 +101,43 @@
         box-shadow: 0 0 5px rgba(0,119,255,0.3);
     }
 
-    /* SEND BUTTON */
-    .send-btn {
-        display: block;
-        margin: 30px auto 10px auto;
+    /* BUTTONS */
+    .send-btn, .receive-btn, .whatsapp-btn {
+        display: inline-block;
+        margin: 20px 10px 10px 0;
         padding: 12px 30px;
-        background: #0077ff;
-        color: white;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
         border: none;
         border-radius: 6px;
         cursor: pointer;
         transition: 0.3s;
+        text-decoration: none;
+        color: white;
+    }
+
+    .send-btn {
+        background: #0077ff;
     }
 
     .send-btn:hover {
         background: #0056cc;
+    }
+
+    .receive-btn {
+        background: #28a745;
+    }
+
+    .receive-btn:hover {
+        background: #1e7e34;
+    }
+
+    .whatsapp-btn {
+        background: #25D366;
+    }
+
+    .whatsapp-btn:hover {
+        background: #128C7E;
     }
 
 </style>
@@ -133,7 +153,6 @@
     </div>
     <a href="contact.html" class="btn-contact">Contact</a>
 </div>
-
 
 <!-- SERVICES PAGE -->
 <div class="container">
@@ -184,14 +203,12 @@
         <textarea placeholder="Write your personal matter here..."></textarea>
     </div>
 
-    <!-- SEND BUTTON BELOW -->
+    <!-- BUTTONS -->
     <button class="send-btn">Send</button>
- <button class="receive-btn">Receive</button>
-<a href="https://wa.me/1234567890?text=Your+form+data+here" target="_blank">Send via WhatsApp</a>
+    <button class="receive-btn">Receive</button>
+    <a href="https://wa.me/1234567890?text=Your+form+data+here" target="_blank" class="whatsapp-btn">Send via WhatsApp</a>
 
 </div>
 
 </body>
 </html>
-
-
