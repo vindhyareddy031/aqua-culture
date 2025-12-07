@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aqua Services</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        background: #f6f6f6;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 60px;
+        background: white;
+        border-bottom: 1px solid #ddd;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .logo {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .menu a {
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        color: #333;
+    }
+
+    .btn-contact {
+        padding: 10px 20px;
+        border: 2px solid black;
+        background: white;
+        border-radius: 4px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .btn-contact:hover {
+        background: black;
+        color: white;
+    }
+
+    /* SERVICE PAGE */
+    .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 28px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .service-box {
+        margin-bottom: 25px;
+    }
+
+    .service-box label {
+        font-size: 18px;
+        font-weight: 600;
+        color: #222;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .service-box textarea {
+        width: 100%;
+        height: 80px;
+        padding: 12px;
+        font-size: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        resize: vertical;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    .service-box textarea:focus {
+        border-color: #0077ff;
+        box-shadow: 0 0 5px rgba(0,119,255,0.3);
+    }
+
+    /* SEND BUTTON */
+    .send-btn {
+        display: block;
+        margin: 30px auto 10px auto;
+        padding: 12px 30px;
+        background: #0077ff;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .send-btn:hover {
+        background: #0056cc;
+    }
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">AQUA FARM</div>
+    <div class="menu">
+        <a href="index.html">Home</a>
+    </div>
+    <a href="contact.html" class="btn-contact">Contact</a>
+</div>
+
+
+<!-- SERVICES PAGE -->
+<div class="container">
+    <h2>Transport Details Form</h2>
+
+    <div class="service-box">
+        <label>1. Vehicle Type</label>
+        <textarea placeholder="Write your personal matter here..."></textarea>
+    </div>
+
+    <div class="service-box">
+        <label>2. Movement Type</label>
+        <textarea placeholder="Write your personal matter here..."></textarea>
+    </div>
+
+    <div class="service-box">
+        <label>3. Transporter</label>
+        <textarea placeholder="Write your personal matter here..."></textarea>
+    </div>
+
+    <div class="service-box">
+        <label>4. Vehicle No</label>
+        <textarea placeholder="Write your personal matter here..."></textarea>
+    </div>
+
+    <div class="service-box">
+        <label>5. Container No</label>
+        <textarea placeholder="Write your personal matter here..."></textarea>
+    </div>
+
+    <div class="service-box">
+        <label>6. From</label>
+        <textarea placeholder="Write your personal matter here..."></textarea>
+    </div>
+
+    <div class="service-box">
+        <label>7. To</label>
+        <textarea placeholder="Write your personal matter here..."></textarea>
+    </div>
+
+    <div class="service-box">
+        <label>8. GRI No</label>
+        <textarea placeholder="Write your personal matter here..."></textarea>
+    </div>
+
+    <div class="service-box">
+        <label>9. Gatepass</label>
+        <textarea placeholder="Write your personal matter here..."></textarea>
+    </div>
+
+    <!-- SEND BUTTON BELOW -->
+    <button class="send-btn">Send</button>
+<a href="https://wa.me/1234567890?text=Your+form+data+here" target="_blank">Send via WhatsApp</a>
+
+</div>
+
+</body>
+</html>
+
